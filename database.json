@@ -1,0 +1,436 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Derek Brown",
+      "email": "dbrown@cornell.edu",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "fullName": "Bella Thorne",
+      "email": "bthorne1@usa.gov",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "fullName": "Christina Miller",
+      "email": "cmiller@yahoo.com",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "fullName": "Elizabeth Passfield",
+      "email": "epassfield7@bemyhands.org",
+      "isStaff": true
+    },
+    {
+      "id": 5,
+      "fullName": "Frank Barnes",
+      "email": "fbarnes@bemyhands.org",
+      "isStaff": true
+    },
+    {
+      "id": 6,
+      "fullName": "Ellen Slator",
+      "email": "eslator@bemyhands.org",
+      "isStaff": true
+    },
+    {
+      "email": "rmiller@hotmail.com",
+      "fullName": "Rufus Miller",
+      "isStaff": false,
+      "id": 7
+    },
+    {
+      "email": "bteriuihi@bemyhands.org",
+      "fullName": "Bethany Teriuihi",
+      "isStaff": true,
+      "id": 8
+    },
+    {
+      "email": "AdelaDKoonce@gmail.com",
+      "fullName": "Adela Koonce",
+      "isStaff": false,
+      "id": 9
+    },
+    {
+      "email": "rwarren@bemyhands.org",
+      "fullName": "Rosa Warren",
+      "isStaff": true,
+      "id": 10
+    },
+    {
+      "email": "Cpurry@pawsandmews.com",
+      "fullName": "Catty Purry",
+      "isStaff": false,
+      "id": 11
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "address": "2802 Burrow Cove Dr.",
+      "phoneNumber": "852-837-9713",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "address": "5849 River View Lane",
+      "phoneNumber": "202-244-7090",
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "address": "1273 Rockefeller St. Memphis, TN 47267",
+      "phoneNumber": "(507) 720-1157",
+      "userId": 3
+    },
+    {
+      "id": 7,
+      "address": "9283 Rose Blvd.",
+      "phoneNumber": "(697) 980-1247",
+      "userId": 7
+    },
+    {
+      "id": 9,
+      "address": "568 Glory Road",
+      "phoneNumber": "(931) 704-6058",
+      "userId": 9
+    }
+  ],
+  "interpreters": [
+    {
+      "id": 1,
+      "specialty": "General/ Performance Interpreting services",
+      "rate": 96.47,
+      "userId": 4
+    },
+    {
+      "id": 2,
+      "specialty": "Health, Mental Health Interpreting services",
+      "rate": 97.39,
+      "userId": 5
+    },
+    {
+      "id": 3,
+      "specialty": "Legal and Education Interpreting Services",
+      "rate": 95.45,
+      "userId": 6
+    },
+    {
+      "id": 4,
+      "specialty": "Legal and Medical Interpreting Services",
+      "rate": 98.45,
+      "userId": 8
+    },
+    {
+      "id": 5,
+      "specialty": "Medical Interpreting Services",
+      "rate": 95.45,
+      "userId": 10
+    }
+  ],
+  "serviceRequests": [
+    {
+      "userId": 2,
+      "clientName": "Yuki",
+      "clientLastName": "Kidomora",
+      "companyName": "Hearts & Paws Vet Clinic",
+      "location": "1254 Lovelace Ave., Chicago, IL 83456",
+      "serviceTypeId": 1,
+      "eventTypeId": 1,
+      "date": "2022-06-21",
+      "time": "16:00",
+      "endtime": "18:30",
+      "timeZoneId": 7,
+      "description": "Client needs an interpreter for her cat's vet appointment. ",
+      "urgent": true,
+      "dateCompleted": "2022-06-21T23:52:25.347Z",
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "clientName": "Bella",
+      "clientLastName": "Rose",
+      "companyName": "Midtown Courthouse",
+      "location": "3646 Midtown Rd, Memphis,TN 38463",
+      "serviceTypeId": 1,
+      "eventTypeId": 2,
+      "date": "2022-06-22",
+      "time": "16:00",
+      "endtime": "18:30",
+      "timeZoneId": 6,
+      "description": "Client needs an interpreter for her court trial",
+      "urgent": false,
+      "dateCompleted": "2022-06-22T00:03:52.505Z",
+      "id": 4
+    },
+    {
+      "userId": 7,
+      "clientName": "Harry",
+      "clientLastName": "Stewart",
+      "companyName": "Frist Art Museum",
+      "location": "919 Broadway, Nashville, TN 37203",
+      "serviceTypeId": 1,
+      "eventTypeId": 5,
+      "date": "2022-06-22",
+      "time": "16:00",
+      "endtime": "18:30",
+      "timeZoneId": 1,
+      "description": "Client needs an interpreter for his tour. ",
+      "urgent": false,
+      "dateCompleted": "2022-06-22T15:50:49.716Z",
+      "id": 5
+    },
+    {
+      "userId": 9,
+      "clientName": "Barbara",
+      "clientLastName": "Brown",
+      "companyName": "Solution Bridge",
+      "location": "568 Glory Road Nashville, TN 37210",
+      "serviceTypeId": 2,
+      "eventTypeId": 5,
+      "date": "2022-06-24",
+      "time": "16:00",
+      "endtime": "18:30",
+      "timeZoneId": 2,
+      "description": "Client needs an interpreter for her board meeting.",
+      "urgent": true,
+      "dateCompleted": "2022-06-24T15:10:04.198Z",
+      "id": 8
+    },
+    {
+      "userId": 9,
+      "clientName": "Elise",
+      "clientLastName": "Kennedy",
+      "companyName": "MTAC ",
+      "location": "488 Camden Place White Plains, NY 10601",
+      "description": "Client needs an interpreter for the Melanie Martinez concert. ",
+      "serviceTypeId": 2,
+      "eventTypeId": 3,
+      "date": "2022-06-30",
+      "time": "16:00",
+      "endtime": "18:30",
+      "timeZoneId": 4,
+      "urgent": false,
+      "dateCompleted": "",
+      "id": 9
+    },
+    {
+      "userId": 3,
+      "clientName": "Jacob",
+      "clientLastName": "Harrison",
+      "companyName": "Instant Health Care Clinic",
+      "location": "1015 Joyce Lane, Nashville,TN 37216",
+      "serviceTypeId": 1,
+      "eventTypeId": 1,
+      "date": "2022-06-24",
+      "time": "16:00",
+      "endtime": "18:30",
+      "timeZoneId": 6,
+      "description": "Client needs an interpreter for his doctor's appointment. ",
+      "urgent": true,
+      "dateCompleted": "2022-06-24T15:59:40.264Z",
+      "id": 10
+    },
+    {
+      "userId": 3,
+      "clientName": "Hazel",
+      "clientLastName": "Martin",
+      "companyName": "TPAC",
+      "location": "505 Deaderick St, Nashville, TN 37243",
+      "serviceTypeId": 2,
+      "eventTypeId": 3,
+      "description": "Client needs an interpreter for Les Misérables.",
+      "date": "2022-06-30",
+      "time": "16:00",
+      "endtime": "18:30",
+      "timeZoneId": 1,
+      "urgent": false,
+      "dateCompleted": "2022-07-06T02:37:23.311Z",
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "clientName": "Bob",
+      "clientLastName": "Stewart",
+      "companyName": "Meadow View Health Clinic",
+      "location": "1014 Meadow View Dr. Knoxville, TN",
+      "serviceTypeId": 1,
+      "eventTypeId": 1,
+      "description": "Client needs an interpreter for his doctor's appointment. ",
+      "date": "2022-06-30",
+      "time": "16:00",
+      "endtime": "18:30",
+      "timeZoneId": 2,
+      "urgent": true,
+      "dateCompleted": "2022-07-02T21:58:34.201Z",
+      "id": 12
+    },
+    {
+      "userId": 3,
+      "clientName": "Andrew",
+      "clientLastName": "Taylor",
+      "companyName": "Climax Theater",
+      "location": "3465 Valley Rd, Mcminnville, TN",
+      "description": "Client needs an interpreter for Hamiliton.",
+      "serviceTypeId": 1,
+      "eventTypeId": 3,
+      "date": "2022-07-01",
+      "time": "16:00",
+      "endtime": "18:30",
+      "timeZoneId": 2,
+      "dateCompleted": "",
+      "id": 13
+    },
+    {
+      "userId": 3,
+      "clientName": "Béatrice",
+      "clientLastName": "Tirrell",
+      "companyName": "Starview Local Arts Theater",
+      "location": "1067 Starview Rd, McKenzie, TN 45893",
+      "description": "Client need an interpreter for Wicked. ",
+      "serviceTypeId": 1,
+      "eventTypeId": 3,
+      "date": "2022-07-30",
+      "time": "16:00",
+      "endtime": "18:30",
+      "timeZoneId": 6,
+      "urgent": false,
+      "dateCompleted": "",
+      "id": 15
+    },
+    {
+      "userId": 3,
+      "clientName": "Luna",
+      "clientLastName": "Collins",
+      "companyName": "Shadow View Health Clinic",
+      "location": "2787 Shadow View Lane Nashville, TN 37217",
+      "serviceTypeId": 1,
+      "eventTypeId": 1,
+      "description": "Client needs an interpreter for her doctor's appointment. ",
+      "date": "2022-07-02",
+      "time": "10:43",
+      "endtime": "12:00",
+      "timeZoneId": 2,
+      "urgent": true,
+      "dateCompleted": "2022-07-05T14:07:48.516Z",
+      "id": 16
+    },
+    {
+      "userId": 3,
+      "clientName": "ddkjashdkas",
+      "clientLastName": "ddsdjdasd",
+      "companyName": "dsaskjdsakdh",
+      "location": "xcxzchzxkjchk",
+      "description": "chdckhzxchz",
+      "serviceTypeId": 1,
+      "eventTypeId": 1,
+      "date": "2022-07-07",
+      "time": "14:45",
+      "endtime": "15:45",
+      "timeZoneId": 1,
+      "urgent": true,
+      "dateCompleted": "",
+      "id": 17
+    }
+  ],
+  "serviceTypes": [
+    {
+      "id": 1,
+      "serviceType": "On-site interpreting services"
+    },
+    {
+      "id": 2,
+      "serviceType": "Remote interpreting services"
+    },
+    {
+      "id": 3,
+      "serviceType": "CART"
+    }
+  ],
+  "eventTypes": [
+    {
+      "id": 1,
+      "eventType": "Medical"
+    },
+    {
+      "id": 2,
+      "eventType": "Legal"
+    },
+    {
+      "id": 3,
+      "eventType": "Performance"
+    },
+    {
+      "id": 4,
+      "eventType": "Education"
+    },
+    {
+      "id": 5,
+      "eventType": "General"
+    },
+    {
+      "id": 6,
+      "eventType": "Mental Health"
+    }
+  ],
+  "timeZones": [
+    {
+      "id": 1,
+      "timeZone": "Eastern Standard Time"
+    },
+    {
+      "id": 2,
+      "timeZone": "Central Standard Time"
+    },
+    {
+      "id": 3,
+      "timeZone": "Mountain Standard Time"
+    },
+    {
+      "id": 4,
+      "timeZone": "Arizona"
+    },
+    {
+      "id": 5,
+      "timeZone": "Pacific"
+    },
+    {
+      "id": 6,
+      "timeZone": "Alaska Standard Time"
+    },
+    {
+      "id": 7,
+      "timeZone": "Hawaii Standard Time"
+    }
+  ],
+  "interpreterRequests": [
+    {
+      "employeeId": 1,
+      "serviceTicketId": 8,
+      "id": 1
+    },
+    {
+      "interpreterId": 1,
+      "serviceRequestId": 8,
+      "id": 3
+    },
+    {
+      "interpreterId": 1,
+      "serviceRequestId": 3,
+      "id": 4
+    },
+    {
+      "interpreterId": 1,
+      "serviceRequestId": 11,
+      "id": 6
+    },
+    {
+      "interpreterId": 1,
+      "serviceRequestId": 10,
+      "id": 7
+    }
+  ]
+}
